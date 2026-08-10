@@ -46,11 +46,11 @@ If the inbox gave you nothing, choose today's seed yourself.
 2. Whatever source you actually collect from — a Notion database, a bookmarks
    file, a spreadsheet, an RSS folder. This pack does not assume any particular
    tool. If you have a collection with engagement figures, sort by reach first,
-   then by how useful the topic is to the reader in `BRAND.md` §1.
+   then by how useful the topic is to the reader in `BRAND.md` §2.
 3. Nothing collected yet → research the reader's problem directly and propose
    three candidate angles, then pick the one that scores highest in Step 4.
 
-**Selection rule:** the seed must be something the reader in `BRAND.md` §1 could
+**Selection rule:** the seed must be something the reader in `BRAND.md` §2 could
 act on today. If you cannot say what they would do after reading, pick again.
 
 Record the chosen source URL (if any) as `RESEARCH_SOURCE` in the brief.

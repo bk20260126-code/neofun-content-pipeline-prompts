@@ -35,7 +35,7 @@ Read `CONTENT_MODE` from `content-brief.md` and adjust your approach:
 | Mode | How to write |
 |------|-------------|
 | `ORIGINAL` | Build from the Core Insight outward. Voice is first-person authority. "We built this. Here's what happened." |
-| `REPURPOSE` | The source is the evidence. Core Insight is YOUR interpretation of it — not a summary. Never credit the source directly in the post unless it adds authority. Reframe it through the positioning in BRAND.md §2. |
+| `REPURPOSE` | The source is the evidence. Core Insight is YOUR interpretation of it — not a summary. Never credit the source directly in the post unless it adds authority. Reframe it through the positioning in BRAND.md §1. |
 | `REWRITE` | You have a proven hook and structure (from SOURCE field). Keep the hook pattern. Change the angle, examples, or platform. Do not copy — improve. |
 
 ## Justin Welsh 7-Step Framework (Apply to Every Draft)

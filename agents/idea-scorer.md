@@ -24,7 +24,7 @@ Score each criterion 0, 1, or 2:
 | 3 | **Bookmarkability** | Would not save | Maybe | Would save and re-read |
 | 4 | **Actionability** | No clear next step | Vague action | Reader can do this today |
 | 5 | **Hook potential** | No scroll-stopper | Decent opening | Strong first line already obvious |
-| 6 | **Audience fit** | 0/1/2 기준은 `BRAND.md` §6에 정의돼 있다. 읽고 그대로 적용한다. 비어 있으면 채점하지 말고 먼저 채워달라고 요청한다. |||
+| 6 | **Audience fit** | 0/1/2 기준은 `BRAND.md` 부록 A에 정의돼 있다. 읽고 그대로 적용한다. 비어 있으면 채점하지 말고 먼저 채워달라고 요청한다. |||
 
 **Score interpretation:**
 - 10–12: Proceed immediately

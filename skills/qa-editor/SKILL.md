@@ -27,7 +27,7 @@ Run every item on every draft. Mark PASS or FAIL with reason.
 - [ ] No tutorial-style intro ("In this post I'll show you...")
 - [ ] Confident and direct, not arrogant
 - [ ] Technical but accessible — no jargon without context
-- [ ] Consistent with the positioning in `BRAND.md` §2 — the draft sells what that file says you sell, and does not sell what it says you do not
+- [ ] Consistent with the positioning in `BRAND.md` §1 — the draft sells what that file says you sell, and does not sell what it says you do not
 
 ### Justin Welsh Standards
 - [ ] Hook is strong enough to stop scrolling (would YOU stop for this?)
@@ -66,10 +66,10 @@ Run every item on every draft. Mark PASS or FAIL with reason.
 - [ ] No passive voice in headlines
 - [ ] No "Number 7 will surprise you" padding
 - [ ] No emojis in headlines
-- [ ] Visual rules in `BRAND.md` §7 are respected (colour use, forbidden imagery)
+- [ ] Visual rules in `BRAND.md` 부록 B are respected (colour use, forbidden imagery)
 - [ ] Sells 매출/effectiveness, not efficiency/discount (no 시간 절약 / 비용 절감 framing as the value)
 - [ ] No Korean slop phrases (시간 절약, 비용 절감, 생산성 향상, 혁신적인, 원활한 통합, 업무 효율화 — see avoid-slop.md)
-- [ ] No internal jargon leaked into public copy — check every term listed in `BRAND.md` §5 and use the plain-language version instead
+- [ ] No internal jargon leaked into public copy — check every term listed in `BRAND.md` §6 and use the plain-language version instead
 - [ ] All drafts written in Korean (brand name your brand / 내 브랜드 and technical terms in English are OK)
 
 ## Verdict

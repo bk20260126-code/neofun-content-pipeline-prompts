@@ -9,7 +9,7 @@ disable-model-invocation: true
 > 작성됐으니 다른 서비스를 쓴다면 호출부를 바꾸세요.
 >
 > `brand-assets/uuid-registry.md`는 **이 팩에 없습니다.** 브랜드 레퍼런스 이미지를 서비스에
-> 올린 뒤 그 ID를 적어두는 본인 파일입니다. 없으면 `BRAND.md` §7의 색·서체 규칙만으로
+> 올린 뒤 그 ID를 적어두는 본인 파일입니다. 없으면 `BRAND.md` 부록 B의 색·서체 규칙만으로
 > 생성하세요 — 일관성은 떨어지지만 작동합니다.
 
 # SNS Carousel Skill — your brand Visual Generator
@@ -45,7 +45,7 @@ For each slide, construct a prompt:
 
 ```
 Slide [N] prompt:
-"[Visual concept for slide N]. Follow the visual rules in BRAND.md §7.
+"[Visual concept for slide N]. Follow the visual rules in BRAND.md 부록 B.
 Warm off-white #FAFAF8 canvas, surface cards #FFFFFF, warm near-black ink #1A1A1A
 text carrying ~90% of the layout. At most ONE brand-color moment on this slide —
 a soft tinted tile (#FFE6DE / #E2F4FF / #D6F5E6 / #FFF1D6) behind a glyph or number,
@@ -54,7 +54,7 @@ Everywhere else stays ink. Korean display/emphasis in Gmarket Sans Bold, Korean 
 in Pretendard (word-break keep-all), Latin in Hanken Grotesk weight 300 (thin).
 Clean 4px grid, generous 80px padding, soft rounded corners (8/14/20 — pills for CTA/badge only),
 barely-there shadows (depth via hairlines + inversion). Editorial minimalism, quiet warmed authority — not AI hype.
-No gradients. No neon. No stock-photo vibes. Use only the colours and fonts declared in BRAND.md §7, and none of the imagery listed there as forbidden.
+No gradients. No neon. No stock-photo vibes. Use only the colours and fonts declared in BRAND.md 부록 B, and none of the imagery listed there as forbidden.
 Text overlay: '[exact slide text from draft]'"
 ```
 
