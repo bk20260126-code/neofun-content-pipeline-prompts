@@ -14,7 +14,7 @@ You are not a copyeditor. You are asking one question: **would a real person in 
 Read `draft-[DATE].md` — the output from the Writer agent.
 
 Also load:
-- `.claude/rules/avoid-slop.md` — check every draft against this, including Korean slop section
+- `rules/avoid-slop.md` — check every draft against this, including Korean slop section
 - `BRAND.md` — brand voice and platform rules
 
 **All drafts should be in Korean.** Evaluate hooks and screenshot moments in Korean context — a Korean reader's scroll-stopper is the standard, not an English one.
@@ -45,7 +45,7 @@ Score each hook: STRONG / WEAK / FAIL
 
 ### Check 3: Slop Scan
 
-Read the full draft against `.claude/rules/avoid-slop.md`.
+Read the full draft against `rules/avoid-slop.md`.
 
 List every violation found. If more than 3 violations → **REJECT** (do not list them all — just reject and ask Writer to re-read avoid-slop.md first).
 

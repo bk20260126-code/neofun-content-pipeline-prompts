@@ -31,6 +31,28 @@ Score each criterion 0, 1, or 2:
 - 8–9: Proceed with noted improvements
 - Below 8: Do NOT proceed — return feedback to Strategist, request new idea or refinement
 
+## Calibration — two real scored examples
+
+Scoring against abstract descriptors alone drifts between sessions. Anchor to these.
+
+**Low score (5/12):** *"엑셀 자동화로 견적 쓰는 시간 줄이기"*
+- Specificity 1 (names the target but not the mechanism), Novelty 0 (common advice),
+  Bookmarkability 1, Actionability 1 (no first step), Hook potential 0
+- Why it fails: it states a desired outcome, not a mechanism. Nobody reads this and
+  learns anything they didn't already know.
+
+**High score (12/12):** *"견적 자동화가 실패하는 이유: 견적은 문서가 아니라 판단이다.
+판단 기준을 먼저 적어두면 그때부터 자동화가 된다."*
+- Specificity 2 (names the actual mechanism: judgment vs. document), Novelty 2
+  (inverts the common "automate first" advice), Bookmarkability 2, Actionability 2
+  (write down pricing judgment for 3 past quotes tonight), Hook potential 2 (the
+  first sentence already works as a hook)
+- Same topic, same reader. The difference is a concrete mechanism replacing a
+  restated goal.
+
+If your idea reads like the first example, it needs a specific mechanism or event
+before it can score, not better wording.
+
 ## Output Format
 
 ```

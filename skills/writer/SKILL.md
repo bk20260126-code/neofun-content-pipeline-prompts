@@ -24,7 +24,7 @@ Read:
 1. `content-brief.md` — the brief from Strategist (must exist, must say BRIEF_READY in STATE.md)
 2. `BRAND.md` — brand voice, platform rules, anti-patterns, Korean approved/forbidden phrases
 3. `STATE.md` — confirm status is BRIEF_READY
-4. `.claude/rules/avoid-slop.md` — check every draft against this before outputting
+4. `rules/avoid-slop.md` — check every draft against this before outputting
 
 If STATE.md is not BRIEF_READY, stop and report.
 
@@ -38,7 +38,12 @@ Read `CONTENT_MODE` from `content-brief.md` and adjust your approach:
 | `REPURPOSE` | The source is the evidence. Core Insight is YOUR interpretation of it — not a summary. Never credit the source directly in the post unless it adds authority. Reframe it through the positioning in BRAND.md §1. |
 | `REWRITE` | You have a proven hook and structure (from SOURCE field). Keep the hook pattern. Change the angle, examples, or platform. Do not copy — improve. |
 
-## Justin Welsh 7-Step Framework (Apply to Every Draft)
+## Structural Checklist (Apply to Every Draft)
+
+This is a structural checklist (what order to do things in), not a voice guide.
+It draws on the widely-used creator framework popularized by Justin Welsh. Voice
+still comes entirely from `BRAND.md` §4 — if any step below seems to pull toward
+a tone BRAND.md doesn't have, BRAND.md wins. Follow the order, not an implied tone.
 
 1. **Analyze** — internalize the core insight and target audience from brief
 2. **Hook First** — use the exact hook from the brief, or improve it if you can do better

@@ -83,9 +83,15 @@ rewrite_candidate:
   confidence: high
 ```
 
-## Step 4: Send Slack Daily Report
+## Step 4: Report the Result
 
-Send via Slack MCP connector to the designated channel:
+> **Optional step.** If you have a Slack MCP connector configured, use it as shown below.
+> If not, write the same report to the end of `STATE.md` instead — the content is
+> identical, only the destination changes. Do not treat a missing Slack connector as
+> a failure; this step exists so the daily result is visible somewhere, not specifically
+> in Slack.
+
+Slack version (if configured), via Slack MCP connector to the designated channel:
 
 ```
 📊 your brand Content Analytics — [DATE]
@@ -123,13 +129,13 @@ Update the Mutation Directives section with today's summary.
 If no analytics data is available (first week, API down, etc.):
 - Set all directives to PRESERVE
 - Set platform priority to default order from content-planner.md
-- Note in Slack report: "No performance data available — using defaults"
+- Note in the report (Slack or STATE.md, whichever you're using): "No performance data available — using defaults"
 - Do NOT invent performance numbers
 
 ## Gotchas
 
 - You write to mutation-directive.yaml — the Strategist reads it. Your directives directly control tomorrow's content.
 - Never recommend REMOVE on a theme that's only been tested once — need at least 3 data points
-- The Slack report must send even if all data is default — it's a confirmation that the pipeline is alive
-- If Postiz API times out after 120 seconds, use fallback and note it in the report
+- The report must go out even if all data is default (Slack if configured, STATE.md otherwise) — it's a confirmation that the pipeline is alive
+- If your analytics source times out (the original build used Postiz; you may be using something else), use fallback data and note it in the report
 - Your job is pattern recognition, not individual post judgment — look at trends across 3 days
