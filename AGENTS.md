@@ -24,12 +24,21 @@ LinkedIn post" with no brand behind it.
 
 ## Workflow
 
+Only three files get invoked directly. Scoring is not a separate step: it is
+called from inside `strategist`, not run standalone before it.
+
 | Step | File | Input | Stops if |
 |---|---|---|---|
-| 1. Score | `agents/idea-scorer.md` | one 글감 (a sentence or two) | score < 8/12 → return feedback, do not proceed |
-| 2. Brief | `skills/strategist/SKILL.md` | the scored 글감 | (none) |
-| 3. Draft | `skills/writer/SKILL.md` | the brief | (none) |
-| 4. Review | `skills/qa-editor/SKILL.md` | the draft | 2 consecutive rejections → stop, hand both reports back to the user |
+| 1. Brief | `skills/strategist/SKILL.md` | one 글감 (a sentence or two) | its internal `agents/idea-scorer.md` call scores < 8/12 → no brief written, feedback returned instead |
+| 2. Draft | `skills/writer/SKILL.md` | the brief | (none) |
+| 3. Review | `skills/qa-editor/SKILL.md` | the draft | 2 consecutive rejections → stop, hand both reports back to the user |
+
+`agents/idea-scorer.md` is a subagent `strategist` calls at its own Step 3.6,
+after mode/theme/style selection, not a gate the user runs first. It can also
+be invoked standalone as a quick sanity check on a raw 글감 before writing a
+full brief, but that manual score is advisory. `strategist`'s own internal
+call is what actually decides whether a brief gets written, and it may score
+differently once the idea has a theme, style, and angle attached.
 
 Optional, each needs an external service the user must have configured:
 
